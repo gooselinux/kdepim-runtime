@@ -1,0 +1,752 @@
+diff -Nur kdepim-runtime-4.3.4/agents/nepomuk_contact_feeder/nepomukcontactfeeder.desktop kdepim-runtime-4.3.5/agents/nepomuk_contact_feeder/nepomukcontactfeeder.desktop
+--- kdepim-runtime-4.3.4/agents/nepomuk_contact_feeder/nepomukcontactfeeder.desktop	2009-10-02 10:20:43.000000000 +0200
++++ kdepim-runtime-4.3.5/agents/nepomuk_contact_feeder/nepomukcontactfeeder.desktop	2010-01-21 21:48:38.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Nepomuk Contact Feeder
+ Name[ar]=مغذي جهات إتصال نبومك
+ Name[ca]=Alimentador de contactes del Nepomuk
++Name[ca@valencia]=Alimentador de contactes del Nepomuk
+ Name[da]=Nepomuk kontakt-feeder
+ Name[de]=Kontakte-Modul für Nepomuk
+ Name[el]=Τροφοδότης επαφών Nepomuk
+@@ -38,6 +39,7 @@
+ Comment=Extension to push contacts into Nepomuk
+ Comment[ar]=امتداد لدفع جهات الإتصال داخل نبومك
+ Comment[ca]=Extensió per a introduir contactes en el Nepomuk
++Comment[ca@valencia]=Extensió per a introduir contactes en el Nepomuk
+ Comment[da]=Udvidelse til at skubbe kontakter ind i Nepomuk
+ Comment[de]=Erweiterung zur Übergabe von Kontakten an Nepomuk
+ Comment[el]=Επέκταση για την τροφοδοσία επαφών στο Nepomuk
+diff -Nur kdepim-runtime-4.3.4/agents/nepomuk_email_feeder/nepomukemailfeeder.desktop kdepim-runtime-4.3.5/agents/nepomuk_email_feeder/nepomukemailfeeder.desktop
+--- kdepim-runtime-4.3.4/agents/nepomuk_email_feeder/nepomukemailfeeder.desktop	2009-10-02 10:20:43.000000000 +0200
++++ kdepim-runtime-4.3.5/agents/nepomuk_email_feeder/nepomukemailfeeder.desktop	2010-01-21 21:48:38.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Nepomuk EMail Feeder
+ Name[ar]=مغذي البريد الإلكتروني لنبومك
+ Name[ca]=Alimentador de correus del Nepomuk
++Name[ca@valencia]=Alimentador de correus del Nepomuk
+ Name[da]=Nepomuk e-mail-feeder
+ Name[de]=E-Mail-Modul für Nepomuk
+ Name[el]=Τροφοδότης EMail του Nepomuk
+@@ -38,6 +39,7 @@
+ Comment=Extension to push emails into Nepomuk
+ Comment[ar]=امتداد لدفع البريد الإلكتروني داخل نبومك
+ Comment[ca]=Extensió per a introduir correus en el Nepomuk
++Comment[ca@valencia]=Extensió per a introduir correus en el Nepomuk
+ Comment[da]=Udvidelse til at skubbe e-mail ind i Nepomuk
+ Comment[de]=Erweiterung zur Übergabe von E-Mails an Nepomuk
+ Comment[el]=Επέκταση για την τροφοδοσία email στο Nepomuk
+diff -Nur kdepim-runtime-4.3.4/agents/strigifeeder/strigifeeder.desktop kdepim-runtime-4.3.5/agents/strigifeeder/strigifeeder.desktop
+--- kdepim-runtime-4.3.4/agents/strigifeeder/strigifeeder.desktop	2009-10-30 13:30:43.000000000 +0100
++++ kdepim-runtime-4.3.5/agents/strigifeeder/strigifeeder.desktop	2010-01-21 21:48:38.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Strigi Feeder
+ Name[ar]=مغذي سراتجي
+ Name[ca]=Alimentador del Strigi
++Name[ca@valencia]=Alimentador del Strigi
+ Name[da]=Strigi-feeder
+ Name[de]=Modul für Strigi
+ Name[el]=Τροφοδότης Strigi
+@@ -38,6 +39,7 @@
+ Comment=Strigi-based fulltext search
+ Comment[ar]=بحث كامل النص معتمد على سراتجي
+ Comment[ca]=Motor de cerca per text sencer basat en el Strigi
++Comment[ca@valencia]=Motor de cerca per text sencer basat en el Strigi
+ Comment[da]=Strigi-baseret fuldtekst-søgning
+ Comment[de]=Strigi-basierte Volltextsuche
+ Comment[el]=Αναζήτηση κειμένου βασισμένη στο Strigi
+diff -Nur kdepim-runtime-4.3.4/akonadiconsole/akonadiconsole.desktop kdepim-runtime-4.3.5/akonadiconsole/akonadiconsole.desktop
+--- kdepim-runtime-4.3.4/akonadiconsole/akonadiconsole.desktop	2009-10-02 10:20:47.000000000 +0200
++++ kdepim-runtime-4.3.5/akonadiconsole/akonadiconsole.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Akonadi Console
+ Name[ar]=طرفية اكوندا
+ Name[ca]=Consola de l'Akonadi
++Name[ca@valencia]=Consola de l'Akonadi
+ Name[cs]=Konzole Akonadi
+ Name[da]=Akonadi-konsol
+ Name[de]=Akonadi-Konsole
+@@ -43,6 +44,7 @@
+ Comment=Akonadi Management and Debugging Console
+ Comment[ar]=إدارة اكوندا و طرفية التنقيح
+ Comment[ca]=Consola de gestió i depuració per a l'Akonadi
++Comment[ca@valencia]=Consola de gestió i depuració per a l'Akonadi
+ Comment[da]=Akonadi håndterings- og fejlretningskonsol
+ Comment[de]=Akonadi-Konsole zur Verwaltung und Fehlersuche
+ Comment[el]=Κονσόλα διαχείρισης και αποσφαλμάτωσης του Akonadi
+diff -Nur kdepim-runtime-4.3.4/kcm/kcm_akonadi.desktop kdepim-runtime-4.3.5/kcm/kcm_akonadi.desktop
+--- kdepim-runtime-4.3.4/kcm/kcm_akonadi.desktop	2009-10-30 13:30:44.000000000 +0100
++++ kdepim-runtime-4.3.5/kcm/kcm_akonadi.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -16,6 +16,7 @@
+ Name=Akonadi Configuration
+ Name[ar]=ضبط اكوندا
+ Name[ca]=Configuració de l'Akonadi
++Name[ca@valencia]=Configuració de l'Akonadi
+ Name[cs]=Nastavení Akonadi
+ Name[da]=Konfiguration af Akonadi
+ Name[de]=Akonadi-Einrichtung
+@@ -39,6 +40,7 @@
+ Name[pt_BR]=Configuração do Akonadi
+ Name[ro]=Configurare Akonadi
+ Name[ru]=Настройка Akonadi
++Name[sl]=Nastavitev Akonadija
+ Name[sv]=Inställning av Akonadi
+ Name[tr]=Akonadi Yapılandırması
+ Name[uk]=Налаштування Akonadi
+@@ -48,6 +50,7 @@
+ Comment=Configuration of the Akonadi Personal Information Management framework
+ Comment[ar]=ضبط إطار إدارة المعلومات الشخصية اكوندا
+ Comment[ca]=Configuració de l'entorn de gestió d'informació personal de l'Akonadi
++Comment[ca@valencia]=Configuració de l'entorn de gestió d'informació personal de l'Akonadi
+ Comment[da]=Konfiguration af Akonadi - framework til håndtering af personlig information (PIM)
+ Comment[de]=Einrichtung des persönlichen Informationsmanagement von Akonadi
+ Comment[el]=Ρύθμιση του διαχειριστή προσωπικών πληροφοριών του Akonadi
+diff -Nur kdepim-runtime-4.3.4/kcm/kcm_akonadi_resources.desktop kdepim-runtime-4.3.5/kcm/kcm_akonadi_resources.desktop
+--- kdepim-runtime-4.3.4/kcm/kcm_akonadi_resources.desktop	2009-10-02 10:20:50.000000000 +0200
++++ kdepim-runtime-4.3.5/kcm/kcm_akonadi_resources.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name=Akonadi Resources Configuration
+ Name[ar]=ضبط موارد اكوندا
+ Name[ca]=Configuració de recursos de l'Akonadi
++Name[ca@valencia]=Configuració de recursos de l'Akonadi
+ Name[cs]=Nastavení zdrojů Akonadi
+ Name[da]=Akonadi ressourcekonfiguration
+ Name[de]=Einrichtung der Akonadi-Ressourcen
+diff -Nur kdepim-runtime-4.3.4/kcm/kcm_akonadi_server.desktop kdepim-runtime-4.3.5/kcm/kcm_akonadi_server.desktop
+--- kdepim-runtime-4.3.4/kcm/kcm_akonadi_server.desktop	2009-10-02 10:20:50.000000000 +0200
++++ kdepim-runtime-4.3.5/kcm/kcm_akonadi_server.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name=Akonadi Server Configuration
+ Name[ar]=ضبط خادم اكوندا
+ Name[ca]=Configuració del servidor de l'Akonadi
++Name[ca@valencia]=Configuració del servidor de l'Akonadi
+ Name[cs]=Nastavení serveru Akonadi
+ Name[da]=Konfiguration af Akonadi-server
+ Name[de]=Einrichtung des Akonadi-Servers
+diff -Nur kdepim-runtime-4.3.4/kresources/kabc/akonadi.desktop kdepim-runtime-4.3.5/kresources/kabc/akonadi.desktop
+--- kdepim-runtime-4.3.4/kresources/kabc/akonadi.desktop	2009-10-02 10:20:45.000000000 +0200
++++ kdepim-runtime-4.3.5/kresources/kabc/akonadi.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Akonadi Address Books
+ Name[ar]=دفتر عناوين اكوندا
+ Name[ca]=Llibreta d'adreces de l'Akonadi
++Name[ca@valencia]=Llibreta d'adreces de l'Akonadi
+ Name[cs]=Kniha adres Akonadi
+ Name[da]=Akonadi-adressebøger
+ Name[de]=Akonadi-Adressbücher
+@@ -38,6 +39,7 @@
+ Comment=Provides access to contacts stored in Akonadi address book folders
+ Comment[ar]=يوفر الدخول لجهات الإتصال المحفوظة في مجلد دفتر عناوين اكوندا
+ Comment[ca]=Proporciona l'accés als contactes emmagatzemats en carpetes de llibreta d'adreces de l'Akonadi
++Comment[ca@valencia]=Proporciona l'accés als contactes emmagatzemats en carpetes de llibreta d'adreces de l'Akonadi
+ Comment[da]=Giver adgang til kontakter lagret i Akonadi adressebogs-mapper
+ Comment[de]=Ermöglicht den Zugriff auf Kontakte, die in Akonadi-Adressbuch-Ordnern gespeichert sind.
+ Comment[el]=Προσφέρει πρόσβαση σε επαφές αποθηκευμένες σε φακέλους βιβλίων διευθύνσεων του Akonadi
+diff -Nur kdepim-runtime-4.3.4/kresources/kcal/akonadi.desktop kdepim-runtime-4.3.5/kresources/kcal/akonadi.desktop
+--- kdepim-runtime-4.3.4/kresources/kcal/akonadi.desktop	2009-10-02 10:20:46.000000000 +0200
++++ kdepim-runtime-4.3.5/kresources/kcal/akonadi.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Akonadi
+ Name[ar]=اكوندا
+ Name[ca]=Akonadi
++Name[ca@valencia]=Akonadi
+ Name[cs]=Akonadi
+ Name[da]=Akonadi
+ Name[de]=Akonadi-Ressource
+@@ -40,6 +41,7 @@
+ Comment=Provides access to calendars stored in Akonadi calendar folders
+ Comment[ar]=يوفر الوصول للتقويمات المحفوظة في مجلد تقويم اكوندا
+ Comment[ca]=Proporciona l'accés als calendaris emmagatzemats en carpetes de calendari de l'Akonadi
++Comment[ca@valencia]=Proporciona l'accés als calendaris emmagatzemats en carpetes de calendari de l'Akonadi
+ Comment[da]=Giver adgang til kalendere lagret i Akonadi kalender-mapper
+ Comment[de]=Ermöglicht den Zugriff auf Kalender, die in Akonadi-Ordnern gespeichert sind.
+ Comment[el]=Προσφέρει πρόσβαση σε ημερολόγια αποθηκευμένα σε φακέλους ημερολογίου του Akonadi
+diff -Nur kdepim-runtime-4.3.4/plugins/akonadi_serializer_addressee.desktop kdepim-runtime-4.3.5/plugins/akonadi_serializer_addressee.desktop
+--- kdepim-runtime-4.3.4/plugins/akonadi_serializer_addressee.desktop	2009-08-27 10:18:29.000000000 +0200
++++ kdepim-runtime-4.3.5/plugins/akonadi_serializer_addressee.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Addressee Serializer
+ Name[ar]=مسلسل المُرسَل
+ Name[ca]=Serialitzador de destinataris
++Name[ca@valencia]=Serialitzador de destinataris
+ Name[da]=Serieordning af adressater
+ Name[de]=Empfänger-Serialisierung
+ Name[el]=Διαχειριστής διευθύνσεων
+@@ -37,6 +38,7 @@
+ Comment=An Akonadi serializer plugin for addressee objects
+ Comment[ar]=ملحق مسلسل اكوندا لكائنات المُرسَل
+ Comment[ca]=Un connector de serialització de l'Akonadi pels objectes destinataris
++Comment[ca@valencia]=Un connector de serialització de l'Akonadi pels objectes destinataris
+ Comment[da]=Et Akonadi-plugin til serieordning af adressatobjekter
+ Comment[de]=Akonadi-Modul zur Serialisierung von Adressobjekten
+ Comment[el]=Ένα πρόσθετο διαχείρισης διευθύνσεων του Akonadi
+@@ -65,7 +67,7 @@
+ Comment[ru]=Модуль сохранения контактов для Akonadi
+ Comment[sv]=Ett insticksprogram till Akonadi för serialisering av adressatobjekt
+ Comment[tr]=Adres nesneleri için bir Akonadi sıralandırıcısı
+-Comment[uk]=Втулок серіалізації Akonadi для об'єктів адресатів
++Comment[uk]=Додаток серіалізації Akonadi для об'єктів адресатів
+ Comment[x-test]=xxAn Akonadi serializer plugin for addressee objectsxx
+ Comment[zh_CN]=对收信人对象进行序列转换的 Akonadi 插件
+ Comment[zh_TW]=地址物件的 Akonadi 序列器外掛程式
+diff -Nur kdepim-runtime-4.3.4/plugins/akonadi_serializer_bookmark.desktop kdepim-runtime-4.3.5/plugins/akonadi_serializer_bookmark.desktop
+--- kdepim-runtime-4.3.4/plugins/akonadi_serializer_bookmark.desktop	2009-08-27 10:18:29.000000000 +0200
++++ kdepim-runtime-4.3.5/plugins/akonadi_serializer_bookmark.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Bookmark serializer
+ Name[ar]=مسلسل العلامات
+ Name[ca]=Serialitzador de punts
++Name[ca@valencia]=Serialitzador de punts
+ Name[da]=Serieordning af bogmærker
+ Name[de]=Lesezeichen-Serialisierung
+ Name[el]=Διαχειριστής αλληλουχίας σελιδοδεικτών
+@@ -36,6 +37,7 @@
+ Comment=An Akonadi serializer plugin for bookmark objects
+ Comment[ar]=ملحق مسلسل اكوندا لكائنات العلامة
+ Comment[ca]=Un connector de serialització de l'Akonadi pels objectes punts
++Comment[ca@valencia]=Un connector de serialització de l'Akonadi pels objectes punts
+ Comment[da]=Et Akonadi-plugin til serieordning af bogmærkeobjekter
+ Comment[de]=Akonadi-Modul zur Serialisierung von Lesezeichen
+ Comment[el]=Ένα πρόσθετο διαχείρισης αλληλουχίας αντικειμένων αλληλογραφίας για το Akonadi
+@@ -63,7 +65,7 @@
+ Comment[ru]=Модуль сохранения закладок для Akonadi
+ Comment[sv]=Ett insticksprogram till Akonadi för serialisering av bokmärkesobjekt
+ Comment[tr]=Yer imi nesneleri için bir Akonadi sıralandırıcısı
+-Comment[uk]=Втулок серіалізації Akonadi для об'єктів закладок
++Comment[uk]=Додаток серіалізації Akonadi для об'єктів закладок
+ Comment[x-test]=xxAn Akonadi serializer plugin for bookmark objectsxx
+ Comment[zh_CN]=对书签对象进行序列转换的 Akonadi 插件
+ Comment[zh_TW]=書籤物件的 Akonadi 序列器外掛程式
+diff -Nur kdepim-runtime-4.3.4/plugins/akonadi_serializer_contactgroup.desktop kdepim-runtime-4.3.5/plugins/akonadi_serializer_contactgroup.desktop
+--- kdepim-runtime-4.3.4/plugins/akonadi_serializer_contactgroup.desktop	2009-08-27 10:18:29.000000000 +0200
++++ kdepim-runtime-4.3.5/plugins/akonadi_serializer_contactgroup.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Contact Group Serializer
+ Name[ar]=مسلسل مجموعة جهات الإتصال
+ Name[ca]=Serialitzador de grups de contactes
++Name[ca@valencia]=Serialitzador de grups de contactes
+ Name[da]=Serieordning af kontaktgruppe
+ Name[de]=Kontaktgruppen-Serialisierung
+ Name[el]=Διαχειριστής ομάδων επαφών
+@@ -36,6 +37,7 @@
+ Comment=An Akonadi serializer plugin for contact group objects
+ Comment[ar]=ملحق مسلسل اكوندا لكائنات مجموعة الإتصال
+ Comment[ca]=Un connector de serialització de l'Akonadi pels objectes de grups de contactes
++Comment[ca@valencia]=Un connector de serialització de l'Akonadi pels objectes de grups de contactes
+ Comment[da]=Et Akonadi-plugin til serieordning af kontaktgruppeobjekter
+ Comment[de]=Akonadi-Modul zur Serialisierung von Kontaktgruppen
+ Comment[el]=Ένα πρόσθετο διαχείρισης αλληλουχίας αντικειμένων ομάδων επαφών του Akonadi
+@@ -63,7 +65,7 @@
+ Comment[ru]=Модуль сохранения групп контактов для Akonadi
+ Comment[sv]=Ett insticksprogram till Akonadi för serialisering av kontaktgruppobjekt
+ Comment[tr]=Kişi grubu nesneleri için bir Akonadi sıralandırıcısı
+-Comment[uk]=Втулок серіалізації Akonadi для об'єктів груп контактів
++Comment[uk]=Додаток серіалізації Akonadi для об'єктів груп контактів
+ Comment[x-test]=xxAn Akonadi serializer plugin for contact group objectsxx
+ Comment[zh_CN]=对联系人分组对象进行序列转换的 Akonadi 插件
+ Comment[zh_TW]=聯絡人群組物件的 Akonadi 序列器外掛程式
+diff -Nur kdepim-runtime-4.3.4/plugins/akonadi_serializer_kcal.desktop kdepim-runtime-4.3.5/plugins/akonadi_serializer_kcal.desktop
+--- kdepim-runtime-4.3.4/plugins/akonadi_serializer_kcal.desktop	2009-10-30 13:30:43.000000000 +0100
++++ kdepim-runtime-4.3.5/plugins/akonadi_serializer_kcal.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Incidence Serializer
+ Name[ar]=مسلسل الحدث
+ Name[ca]=Serialitzador d'incidències
++Name[ca@valencia]=Serialitzador d'incidències
+ Name[da]=Serieordning af hændelser
+ Name[de]=Ereignis-Serialisierung
+ Name[el]=Διαχειριστής περιστατικών
+@@ -36,6 +37,7 @@
+ Comment=An Akonadi serializer plugin for events, tasks and journal entries
+ Comment[ar]=ملحق مسلسل اكوندا لمدخلات الأحداث و المهمات و السّجل اليومي
+ Comment[ca]=Un connector de serialització de l'Akonadi pels objectes incidències
++Comment[ca@valencia]=Un connector de serialització de l'Akonadi pels objectes incidències
+ Comment[da]=Et Akonadi-plugin til serieordning af hændelser, opgaver og journalindgange
+ Comment[de]=Akonadi-Modul zur Serialisierung von Ereignissen
+ Comment[el]=Ένα πρόσθετο διαχείρισης γεγονότων, εργασιών και καταχωρήσεων χρονικού για το Akonadi
+@@ -65,7 +67,7 @@
+ Comment[ru]=Модуль сохранения событий, задач и журналов для Akonadi
+ Comment[sv]=Ett insticksprogram till Akonadi för serialisering av händelser, uppgifter och journalanteckningar
+ Comment[tr]=Olay, görev ve günlük nesneleri için bir Akonadi sıralandırıcısı
+-Comment[uk]=Втулок серіалізації Akonadi для подій, завдань і записів журналів
++Comment[uk]=Додаток серіалізації Akonadi для подій, завдань і записів журналів
+ Comment[x-test]=xxAn Akonadi serializer plugin for events, tasks and journal entriesxx
+ Comment[zh_CN]=对事项、任务和日记项进行序列转换的 Akonadi 插件
+ Comment[zh_TW]=事件、工作與日誌項目物件的 Akonadi 序列器外掛程式
+diff -Nur kdepim-runtime-4.3.4/plugins/akonadi_serializer_mail.desktop kdepim-runtime-4.3.5/plugins/akonadi_serializer_mail.desktop
+--- kdepim-runtime-4.3.4/plugins/akonadi_serializer_mail.desktop	2009-07-29 13:11:55.000000000 +0200
++++ kdepim-runtime-4.3.5/plugins/akonadi_serializer_mail.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Mail Serializer
+ Name[ar]=مسلسل البريد
+ Name[ca]=Serialitzador de correu
++Name[ca@valencia]=Serialitzador de correu
+ Name[da]=Serieordning af post
+ Name[de]=E-Mail-Serialisierung
+ Name[el]=Διαχειριστής αλληλογραφίας
+@@ -37,6 +38,7 @@
+ Comment=An Akonadi serializer plugin for mail objects
+ Comment[ar]=ملحق مسلسل اكوندا لكائنات البريد
+ Comment[ca]=Un connector de serialització de l'Akonadi pels objectes correu
++Comment[ca@valencia]=Un connector de serialització de l'Akonadi pels objectes correu
+ Comment[da]=Et Akonadi-plugin til serieordning af postobjekter
+ Comment[de]=Akonadi-Modul zur Serialisierung von E-Mail-Objekten
+ Comment[el]=Ένα πρόσθετο διαχείρισης αντικειμένων αλληλογραφίας για το Akonadi
+@@ -65,7 +67,7 @@
+ Comment[ru]=Модуль сохранения писем для Akonadi
+ Comment[sv]=Ett insticksprogram till Akonadi för serialisering av e-postobjekt
+ Comment[tr]=E-posta nesneleri için bir Akonadi sıralandırıcısı
+-Comment[uk]=Втулок серіалізації Akonadi для об'єктів пошти
++Comment[uk]=Додаток серіалізації Akonadi для об'єктів пошти
+ Comment[x-test]=xxAn Akonadi serializer plugin for mail objectsxx
+ Comment[zh_CN]=对邮件对象进行序列转换的 Akonadi 插件
+ Comment[zh_TW]=信件物件的 Akonadi 序列器外掛程式
+diff -Nur kdepim-runtime-4.3.4/plugins/akonadi_serializer_microblog.desktop kdepim-runtime-4.3.5/plugins/akonadi_serializer_microblog.desktop
+--- kdepim-runtime-4.3.4/plugins/akonadi_serializer_microblog.desktop	2009-10-30 13:30:43.000000000 +0100
++++ kdepim-runtime-4.3.5/plugins/akonadi_serializer_microblog.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Microblog Serializer
+ Name[ar]=مسلسل التدوين المصغر
+ Name[ca]=Serialitzador de microblog
++Name[ca@valencia]=Serialitzador de microblog
+ Name[da]=Serieordning af microblogs
+ Name[de]=Microblog-Serialisierung
+ Name[el]=Διαχειριστής Microblog
+@@ -34,6 +35,7 @@
+ Comment=An Akonadi serializer plugin for Microblog
+ Comment[ar]=ملحق مسلسل اكوندا للتدوين المصغر
+ Comment[ca]=Un connector de serialització de l'Akonadi pels microblogs
++Comment[ca@valencia]=Un connector de serialització de l'Akonadi pels microblogs
+ Comment[da]=Et Akonadi-plugin til serieordning af microblogs
+ Comment[de]=Akonadi-Modul zur Serialisierung von Microblog-Objekten
+ Comment[el]=Ένα πρόσθετο διαχείρισης αντικειμένων Microblog για το Akonadi
+diff -Nur kdepim-runtime-4.3.4/resources/birthdays/birthdaysresource.desktop kdepim-runtime-4.3.5/resources/birthdays/birthdaysresource.desktop
+--- kdepim-runtime-4.3.4/resources/birthdays/birthdaysresource.desktop	2009-10-30 13:30:45.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/birthdays/birthdaysresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Birthdays & Anniversaries
+ Name[ar]=أعياد الميلاد و الذكريات
+ Name[ca]=Dates de naixement i aniversaris
++Name[ca@valencia]=Dates de naixement i aniversaris
+ Name[da]=Fødselsdag og mærkedage
+ Name[de]=Geburtstage und Jahrestage
+ Name[el]=Γενέθλια & επέτειοι
+@@ -26,6 +27,7 @@
+ Name[pt_BR]=Aniversários e aniversários de casamento
+ Name[ro]=Zile de naștere și aniversări
+ Name[ru]=Праздники
++Name[sl]=Rojstni dnevi in obletnice
+ Name[sv]=Födelsedagar och årsdagar
+ Name[tr]=Doğumgünleri & Yıldönümleri
+ Name[uk]=Дні народження і річниці
+@@ -35,6 +37,7 @@
+ Comment=Provides access to birthday and anniversary dates of contacts in your address book as calendar events
+ Comment[ar]=يوفر الحصول على موعد الذكرى السنوية لميلاد أو ذكرى لقائمة دفتر العناوين الخاص بك حسب الجدول الزمني للأحداث
+ Comment[ca]=Proporciona l'accés a les dates de naixement i els aniversaris dels contactes de la llibreta d'adreces del KDE com a esdeveniments de calendari
++Comment[ca@valencia]=Proporciona l'accés a les dates de naixement i els aniversaris dels contactes de la llibreta d'adreces del KDE com a esdeveniments de calendari
+ Comment[da]=Giver adgang til fødsels- og mærkedage-datoer for kontakter i din adressebog som kalenderbegivenheder
+ Comment[de]=Ermöglicht den Zugriff auf Geburtstage und Jahrestage von Kontakten aus dem KDE-Adressbuch in Form von Kalendereinträgen.
+ Comment[el]=Προσφέρει πρόσβαση σε γενέθλια και επετείους επαφών του βιβλίου διευθύνσεών σας ως γεγονότα ημερολογίου
+@@ -56,6 +59,7 @@
+ Comment[pt]=Oferece o acesso às datas de nascimento e aniversário dos contactos no livro de endereços como eventos do calendário
+ Comment[pt_BR]=Fornece acesso às datas de aniversário e de casamento de contatos do seu livro de endereços como eventos de calendário
+ Comment[ru]=Доступ к информации о днях рождения из адресной книги KDE как к событиям календаря
++Comment[sl]=Omogoča dostop do rojstnih dni in obletnic stikov, shranjenih v vašem adresarju. Na voljo so kot koledarski dogodki.
+ Comment[sv]=Ger tillgång till datum för födelsedagar och årsdagar för kontakter i KDE:s adressbok som kalenderhändelser
+ Comment[tr]=Adres defterindeki kişilerin doğumgünleri ve yıldönümlerine takvim olayları olarak erişmeyi sağlar
+ Comment[uk]=Надає доступ до дат днів народження і річниць, які зберігаються у вашій адресній книзі як події календаря
+diff -Nur kdepim-runtime-4.3.4/resources/distlist/distlistresource.desktop kdepim-runtime-4.3.5/resources/distlist/distlistresource.desktop
+--- kdepim-runtime-4.3.4/resources/distlist/distlistresource.desktop	2009-10-30 13:30:45.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/distlist/distlistresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Distribution List File
+ Name[ar]=ملف قائمة التوزيع
+ Name[ca]=Fitxers de llistes de distribució
++Name[ca@valencia]=Fitxers de llistes de distribució
+ Name[da]=Distributionsliste-fil
+ Name[de]=Verteilerlistendatei
+ Name[el]=Αρχείο λίστας διανομής
+@@ -36,6 +37,7 @@
+ Comment=Loads data from a distribution list file
+ Comment[ar]=تحميل البيانات من ملف قائمة التوزيع
+ Comment[ca]=Carrega dades des d'un fitxer de llistes de distribució
++Comment[ca@valencia]=Carrega dades des d'un fitxer de llistes de distribució
+ Comment[da]=Indlæser data fra en distributionsliste-fil
+ Comment[de]=Daten werden aus einer Verteilerlistendatei geladen
+ Comment[el]=Φόρτωση δεδομένων από ένα αρχείο λίστας διανομής
+diff -Nur kdepim-runtime-4.3.4/resources/ical/icalresource.desktop kdepim-runtime-4.3.5/resources/ical/icalresource.desktop
+--- kdepim-runtime-4.3.4/resources/ical/icalresource.desktop	2009-10-02 10:21:00.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/ical/icalresource.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=ICal Calendar File
+ Name[ar]=ملف تقويم ICal
+ Name[ca]=Fitxer de calendari ICal
++Name[ca@valencia]=Fitxer de calendari ICal
+ Name[cs]=Soubor s iCal kalendářem
+ Name[da]=iCal-kalenderfil
+ Name[de]=ICal-Kalenderdatei
+@@ -40,6 +41,7 @@
+ Comment=Loads data from an iCal file
+ Comment[ar]=تحميل البيانات من ملف ICal
+ Comment[ca]=Carregar dades des d'un fitxer iCal
++Comment[ca@valencia]=Carregar dades des d'un fitxer iCal
+ Comment[cs]=Načítá data z iCal souboru
+ Comment[da]=Indlæser data fra en iCal-fil
+ Comment[de]=Daten werden aus einer lokalen iCal-Datei geladen
+diff -Nur kdepim-runtime-4.3.4/resources/ical/notesresource.desktop kdepim-runtime-4.3.5/resources/ical/notesresource.desktop
+--- kdepim-runtime-4.3.4/resources/ical/notesresource.desktop	2009-10-30 13:30:49.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/ical/notesresource.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[bg]=Notes
+ Name[br]=Notennoù
+ Name[ca]=Notes
++Name[ca@valencia]=Notes
+ Name[cs]=Poznámky
+ Name[cy]=Nodiadau
+ Name[da]=Noter
+@@ -66,6 +67,7 @@
+ Comment=Loads data from a notes file
+ Comment[ar]=تحميل البيانات من ملف الملاحظات
+ Comment[ca]=Carrega dades des d'un fitxer de notes
++Comment[ca@valencia]=Carrega dades des d'un fitxer de notes
+ Comment[da]=Indlæser data fra en notes-fil
+ Comment[de]=Lädt Daten aus einer Notizen-Datei
+ Comment[el]=Φόρτωση δεδομένων από ένα αρχείο σημειώσεων
+@@ -90,6 +92,7 @@
+ Comment[pt_BR]=Carrega os dados de um arquivo de notas
+ Comment[ro]=Încarcă date dintr-un fișier cu note
+ Comment[ru]=Загрузка данных из файла заметок
++Comment[sl]=Naloži podatke iz datoteke z noticami
+ Comment[sv]=Laddar data från en anteckningsfil
+ Comment[tr]=Bir not dosyasından veri yükler
+ Comment[uk]=Завантажує дані з файла нотаток
+diff -Nur kdepim-runtime-4.3.4/resources/imap/imapresource.desktop kdepim-runtime-4.3.5/resources/imap/imapresource.desktop
+--- kdepim-runtime-4.3.4/resources/imap/imapresource.desktop	2009-10-30 13:30:44.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/imap/imapresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Akonadi Imap
+ Name[ar]=اكوندا IMAP
+ Name[ca]=Akonadi imap
++Name[ca@valencia]=Akonadi imap
+ Name[cs]=Akonadi Imap
+ Name[da]=Akonadi Imap
+ Name[de]=Akonadi-Imap
+@@ -35,6 +36,7 @@
+ Comment=Connects to an IMAP-server. Based on the KIMAP from kdepimlibs.
+ Comment[ar]=يتصل بخادم IMAP بالإعتماد على KIMAP من kdepimlibs.
+ Comment[ca]=Connecta a un servidor IMAP. Basat en KIMAP de kdepimlibs.
++Comment[ca@valencia]=Connecta a un servidor IMAP. Basat en KIMAP de kdepimlibs.
+ Comment[da]=Forbinder til en IMAP-server. Baseret på KIMAP fra kdepimlibs.
+ Comment[de]=Verbindet zu einem IMAP-Server. Basiert auf der KIMAP-Bibliothek der kdepimlibs.
+ Comment[el]=Σύνδεση με έναν διακομηστή IMAP.  Βασισμένο στη βιβλιοθήκη IMAP του kdepimlibs.
+diff -Nur kdepim-runtime-4.3.4/resources/kabc/kabcresource.desktop kdepim-runtime-4.3.5/resources/kabc/kabcresource.desktop
+--- kdepim-runtime-4.3.4/resources/kabc/kabcresource.desktop	2009-10-30 13:30:46.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/kabc/kabcresource.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=KDE Address Book (traditional)
+ Name[ar]=دفتر عناوين كدي (التقليدي)
+ Name[ca]=Llibreta d'adreces del KDE (tradicional)
++Name[ca@valencia]=Llibreta d'adreces del KDE (tradicional)
+ Name[da]=KDE's adressebog (traditionel)
+ Name[de]=KDE-Adressbuch (herkömmlich)
+ Name[el]=Βιβλίο διευθύνσεων του KDE (παραδοσιακό)
+@@ -25,6 +26,8 @@
+ Name[pt]=Livro de Endereços do KDE (tradicional)
+ Name[pt_BR]=Livro de endereços do KDE (tradicional)
+ Name[ro]=Carte de adrese KDE (tradițională)
++Name[ru]=Адресная книга KDE (традиционный источник)
++Name[sl]=KDE-jev adresar (tradicionalni)
+ Name[sv]=KDE:s adressbok (traditionell)
+ Name[tr]=KDE Adres Defteri (geleneksel)
+ Name[uk]=Адресна книга KDE (традиційна)
+@@ -34,6 +37,7 @@
+ Comment=Loads data from a traditional KDE address book resource
+ Comment[ar]=تحمل البيانات من موارد دفتر عنوان كدي التقليدي
+ Comment[ca]=Carrega dades des d'un recurs de llibreta d'adreces tradicional del KDE
++Comment[ca@valencia]=Carrega dades des d'un recurs de llibreta d'adreces tradicional del KDE
+ Comment[da]=Indlæser data fra en traditionel KDE adressebogsressource
+ Comment[de]=Lädt Daten aus einer herkömmlichen KDE-Adressbuch-Ressource
+ Comment[el]=Φόρτωση δεδομένων από έναν παραδοσιακό πόρο βιβλίου διευθύνσεων του KDE
+@@ -56,6 +60,7 @@
+ Comment[pt]=Carrega os dados de um recurso de livro de endereços tradicional do KDE
+ Comment[pt_BR]=Carrega os dados do tradicional recurso do livro de endereços do KDE
+ Comment[ru]=Загрузка данных из простой адресной книги KDE
++Comment[sl]=Naloži podatke iz tradicionalnega KDE-jevega adresarja
+ Comment[sv]=Laddar data från en traditionell adressboksresurs i KDE
+ Comment[tr]=Geleneksel KDE adres defteri kaynağından veri yükler
+ Comment[uk]=Завантажує дані зі звичайного ресурсу адресної книги для KDE
+diff -Nur kdepim-runtime-4.3.4/resources/kcal/kcalresource.desktop kdepim-runtime-4.3.5/resources/kcal/kcalresource.desktop
+--- kdepim-runtime-4.3.4/resources/kcal/kcalresource.desktop	2009-10-02 10:21:01.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/kcal/kcalresource.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=KDE Calendar (traditional)
+ Name[ar]=تقويم كدي (تقليدي)
+ Name[ca]=Calendari del KDE (tradicional)
++Name[ca@valencia]=Calendari del KDE (tradicional)
+ Name[cs]=KDE kalendář (tradiční)
+ Name[da]=KDE-kalender (traditionel)
+ Name[de]=KDE-Kalender (herkömmlich)
+@@ -39,6 +40,7 @@
+ Comment=Loads data from a traditional KDE calendar resource
+ Comment[ar]=تحمل البيانات من موارد تقويم كدي التقليدي
+ Comment[ca]=Carregar dades des d'un recurs de calendari tradicional del KDE
++Comment[ca@valencia]=Carregar dades des d'un recurs de calendari tradicional del KDE
+ Comment[cs]=Načítá data z tradičního kalendáře KDE
+ Comment[da]=Indlæser data fra en traditionel KDE kalenderressource
+ Comment[de]=Lädt Daten aus einer herkömmlichen KDE-Kalender-Ressource
+diff -Nur kdepim-runtime-4.3.4/resources/knut/knutresource.desktop kdepim-runtime-4.3.5/resources/knut/knutresource.desktop
+--- kdepim-runtime-4.3.4/resources/knut/knutresource.desktop	2009-10-02 10:20:52.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/knut/knutresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Knut
+ Name[ar]=Knut
+ Name[ca]=Knut
++Name[ca@valencia]=Knut
+ Name[cs]=Knut
+ Name[da]=Knut
+ Name[de]=Knut
+@@ -39,6 +40,7 @@
+ Comment=An agent for debugging purpose
+ Comment[ar]=أداة لتصحيح الأخطاء
+ Comment[ca]=Un agent amb la finalitat de depuració
++Comment[ca@valencia]=Un agent amb la finalitat de depuració
+ Comment[da]=En agent til fejlretningsformål
+ Comment[de]=Agent für Zwecke der Fehlersuche
+ Comment[el]=Ένας πελάτης με σκοπό την αποσφαλμάτωση
+diff -Nur kdepim-runtime-4.3.4/resources/kolabproxy/kolabproxyresource.desktop kdepim-runtime-4.3.5/resources/kolabproxy/kolabproxyresource.desktop
+--- kdepim-runtime-4.3.4/resources/kolabproxy/kolabproxyresource.desktop	2009-10-30 13:30:45.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/kolabproxy/kolabproxyresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Akonadi Kolab Proxy Resource
+ Name[ar]=مورد وكيل Kolab لاكوندا
+ Name[ca]=Recurs Kolab Proxy de l'Akonadi
++Name[ca@valencia]=Recurs Kolab Proxy de l'Akonadi
+ Name[da]=Akonadi Kolab-proxy-ressource
+ Name[de]=Akonadi-Proxy-Ressource für Kolab
+ Name[el]=Πόρος διαμεσολαβητή του Akonadi Kolab 
+@@ -21,6 +22,7 @@
+ Name[pl]=Zasób danych Akonadi Kolab Proxy
+ Name[pt]=Recurso 'Proxy' do Kolab para o Akonadi
+ Name[pt_BR]=Recurso de proxy do Kolab para o Akonadi
++Name[ru]=Источник Akonadi Kolab Proxy
+ Name[sv]=Akonadi Kolab-proxyresurs
+ Name[tr]=Akonadi Kolab Vekil Sunucu Kaynağı
+ Name[uk]=Ресурс проксі-сервера Kolab Akonadi
+@@ -30,6 +32,7 @@
+ Comment=Proxy resource to monitor groupware folders.
+ Comment[ar]=موارد الوكيل لمراقبة مجلدات البرنامج الجماعي.
+ Comment[ca]=Recurs proxy per controlar carpetes de groupware.
++Comment[ca@valencia]=Recurs proxy per controlar carpetes de groupware.
+ Comment[da]=Proxy-ressource til overvågning af groupware-mapper.
+ Comment[de]=Proxy-Ressource zur Überwachung von Arbeitsgruppen-Ordnern.
+ Comment[el]=Πόρος διαμεσολαβητή για την παρακολούθηση των φακέλων groupware.
+@@ -49,6 +52,7 @@
+ Comment[pl]=Zasób serwera pośredniczącego do monitorowania katalogów pracy grupowej.
+ Comment[pt]=Recurso 'proxy' para vigiar as pastas de 'groupware'.
+ Comment[pt_BR]=O recurso de proxy para monitorar pastas de groupware.
++Comment[ru]=Кешируемый источник для мониторинга общих папок
+ Comment[sv]=Proxyresurs för att övervaka grupprogramkorgar.
+ Comment[tr]=Grup çalışması dizinlerini izlemek için vekil sunucu kaynağı.
+ Comment[uk]=Ресурс проксі-сервера, призначений для спостереження за теками групи.
+diff -Nur kdepim-runtime-4.3.4/resources/localbookmarks/localbookmarksresource.desktop kdepim-runtime-4.3.5/resources/localbookmarks/localbookmarksresource.desktop
+--- kdepim-runtime-4.3.4/resources/localbookmarks/localbookmarksresource.desktop	2009-10-30 13:30:46.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/localbookmarks/localbookmarksresource.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Local Bookmarks
+ Name[ar]=علامات محلية
+ Name[ca]=Punts locals
++Name[ca@valencia]=Punts locals
+ Name[cs]=Místní záložky
+ Name[da]=Lokale bogmærker
+ Name[de]=Lokale Lesezeichen
+@@ -27,6 +28,7 @@
+ Name[pt_BR]=Favoritos locais
+ Name[ro]=Semne de carte locale
+ Name[ru]=Локальные закладки
++Name[sl]=Krajevni zaznamki
+ Name[sv]=Lokala bokmärken
+ Name[tr]=Yerel Yer İmleri
+ Name[uk]=Локальні закладки
+@@ -36,6 +38,7 @@
+ Comment=Loads data from a local bookmarks file
+ Comment[ar]=تحمل البيانات من ملف العلامات المحلية
+ Comment[ca]=Carrega dades des d'un fitxer de punts local
++Comment[ca@valencia]=Carrega dades des d'un fitxer de punts local
+ Comment[cs]=Načítá data z místních záložek
+ Comment[da]=Indlæser data fra en lokal bogmærkefil
+ Comment[de]=Daten werden aus einer lokalen Lesezeichen-Datei geladen
+diff -Nur kdepim-runtime-4.3.4/resources/maildir/maildirresource.desktop kdepim-runtime-4.3.5/resources/maildir/maildirresource.desktop
+--- kdepim-runtime-4.3.4/resources/maildir/maildirresource.desktop	2009-10-02 10:20:51.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/maildir/maildirresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Maildir
+ Name[ar]=Maildir
+ Name[ca]=Maildir
++Name[ca@valencia]=Maildir
+ Name[cs]=Maildir
+ Name[da]=Maildir
+ Name[de]=Maildir
+@@ -39,12 +40,13 @@
+ Comment=Loads data from a local maildir folder
+ Comment[ar]=تحمل البيانات من مجلد maildir المحلي
+ Comment[ca]=Carregar dades des d'una carpeta «maildir» local
++Comment[ca@valencia]=Carregar dades des d'una carpeta «maildir» local
+ Comment[cs]=Načítá data z místní složky maildir
+ Comment[da]=Indlæser data fra en lokal maildir-mappe
+ Comment[de]=Laden von Daten aus einem lokalen Maildir-Datei
+ Comment[el]=Φόρτωσης δεδομένων από έναν τοπικό φάκελο maildir
+ Comment[en_GB]=Loads data from a local maildir folder
+-Comment[es]=Carga datos de una carpeta de maildir local.
++Comment[es]=Carga datos de una carpeta de maildir local
+ Comment[et]=Andmete laadimine kohalikust maildir-kaustast
+ Comment[fr]=Charge des données d'un dossier au format maildir
+ Comment[ga]=Breiseán a luchtaíonn sonraí ó fhillteán logánta maildir
+diff -Nur kdepim-runtime-4.3.4/resources/microblog/microblog.desktop kdepim-runtime-4.3.5/resources/microblog/microblog.desktop
+--- kdepim-runtime-4.3.4/resources/microblog/microblog.desktop	2009-10-30 13:30:49.000000000 +0100
++++ kdepim-runtime-4.3.5/resources/microblog/microblog.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Microblog (Twitter and Identi.ca)
+ Name[ar]=التدوين المصغر ( تويتر و Identi.ca )
+ Name[ca]=Microblog (Twitter i Identi.ca)
++Name[ca@valencia]=Microblog (Twitter i Identi.ca)
+ Name[da]=Microblog (Twitter og Identi.ca)
+ Name[de]=Microblog (Twitter und Identi.ca)
+ Name[el]=Microblog (Twitter και Identi.ca)
+@@ -24,6 +25,7 @@
+ Name[pt_BR]=Microblog (Twitter e Identi.ca)
+ Name[ro]=Microblog (Twitter și Identi.ca)
+ Name[ru]=Микроблог (Twitter и Identi.ca)
++Name[sl]=Mikroblog (identi.ca in Twitter)
+ Name[sv]=Mikrowebbjournal (Twitter och Identi.ca)
+ Name[tr]=Mini günlük (Twitter ve Identi.ca)
+ Name[uk]=Міктоблог (Twitter і Identi.ca)
+@@ -33,6 +35,7 @@
+ Comment=Shows your microblog data from Twitter or Identi.ca.
+ Comment[ar]=تظهر بيانات التدوين المصغر من Twitter أو Identi.ca .
+ Comment[ca]=Mostra les vostres dades d'un microblog de Twitter o identi.ca.
++Comment[ca@valencia]=Mostra les vostres dades d'un microblog de Twitter o identi.ca.
+ Comment[da]=Viser dine microblog-data fra Twitter eller Identi.ca.
+ Comment[de]=Zeigt Microblog-Daten aus Twitter oder Identi.ca an.
+ Comment[el]=Εμφάνιση των δεδομένων σας microblog από το Twitter ή Identi.ca.
+@@ -54,6 +57,7 @@
+ Comment[pt_BR]=Exibir os dados do seu microblog do Twitter ou Identi.ca.
+ Comment[ro]=Vă arată datele de microblog de pe Twitter și Identi.ca.
+ Comment[ru]=Показывать ваши данные с микроблогов Twitter или Identi.ca.
++Comment[sl]=Prikazuje podatke z vašega računa pri identi.ca in Twitter.
+ Comment[sv]=Visar data från din mikrowebbjournal hos Twitter eller Identi.ca.
+ Comment[tr]=Twitter veya Identi.ca servislerinde bulunan mini günlük verilerinizi gösterir.
+ Comment[uk]=Показує ваші дані з мікроблогу Twitter або Identi.ca.
+diff -Nur kdepim-runtime-4.3.4/resources/nepomuktag/nepomuktagresource.desktop kdepim-runtime-4.3.5/resources/nepomuktag/nepomuktagresource.desktop
+--- kdepim-runtime-4.3.4/resources/nepomuktag/nepomuktagresource.desktop	2009-10-02 10:21:01.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/nepomuktag/nepomuktagresource.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Nepomuk Tags (Virtual Folders)
+ Name[ar]=وسوم نبومك (المجلدات التخيلية)
+ Name[ca]=Etiquetes del Nepomuk (Carpetes virtuals)
++Name[ca@valencia]=Etiquetes del Nepomuk (Carpetes virtuals)
+ Name[cs]=Značky Nepomuk (virtuální složky)
+ Name[da]=Nepomuk-mærker (virtuelle mapper)
+ Name[de]=Nepomuk-Stichwörter (Virtuelle Ordner)
+@@ -39,6 +40,7 @@
+ Comment=Virtual folders for selecting messages which have Nepomuk Tags.
+ Comment[ar]=المجلدات التخيلية لإختيار الرسائل التي تملك وسوم نبومك.
+ Comment[ca]=Carpetes virtuals per a seleccionar missatges que tinguin etiquetes del Nepomuk.
++Comment[ca@valencia]=Carpetes virtuals per a seleccionar missatges que tinguen etiquetes del Nepomuk.
+ Comment[da]=Virtuelle mapper til valg af beskeder som har Nepomuk-mærker.
+ Comment[de]=Virtuelle Ordner zur Auswahl von Nachrichten, die Nepomuk-Stichwörter ethalten.
+ Comment[el]=Εικονικοί φάκελοι για την επιλογή μηνυμάτων με ετικέτες Nepomuk.
+diff -Nur kdepim-runtime-4.3.4/resources/nntp/nntpresource.desktop kdepim-runtime-4.3.5/resources/nntp/nntpresource.desktop
+--- kdepim-runtime-4.3.4/resources/nntp/nntpresource.desktop	2009-10-02 10:20:51.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/nntp/nntpresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Usenet Newsgroups (NNTP)
+ Name[ar]=المجموعات الإخبارية يوزنت (NNTP)
+ Name[ca]=Grups de notícies d'Usenet (NNTP)
++Name[ca@valencia]=Grups de notícies d'Usenet (NNTP)
+ Name[cs]=Diskuzní skupiny (NNTP)
+ Name[da]=Usenet-nyhedsgrupper (NNTP)
+ Name[de]=Usenet Newsgruppen (NNTP)
+@@ -38,6 +39,7 @@
+ Comment=Makes it possible to read articles from a news server
+ Comment[ar]=تمكِن قراءة المقالات من خادم الأخبار
+ Comment[ca]=Facilita la lectura d'articles des d'un servidor de notícies
++Comment[ca@valencia]=Facilita la lectura d'articles des d'un servidor de notícies
+ Comment[cs]=Umožňuje číst příspěvky z diskuzního serveru
+ Comment[da]=Muliggør løsning af artikler fra en nyhedsserver
+ Comment[de]=Lesen von Artikeln von einem News-Server
+diff -Nur kdepim-runtime-4.3.4/resources/openchange/ocresource.desktop kdepim-runtime-4.3.5/resources/openchange/ocresource.desktop
+--- kdepim-runtime-4.3.4/resources/openchange/ocresource.desktop	2009-10-02 10:20:59.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/openchange/ocresource.desktop	2010-01-21 21:48:40.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=OpenChange
+ Name[ar]=خادم OpenChange
+ Name[ca]=OpenChange
++Name[ca@valencia]=OpenChange
+ Name[cs]=OpenChange
+ Name[da]=OpenChange
+ Name[de]=OpenChange
+@@ -39,6 +40,7 @@
+ Comment=Makes it possible to work with an OpenChange / Exchange server
+ Comment[ar]=تمكِن العمل مع خادم OpenChange / Exchange server
+ Comment[ca]=Facilita el treball amb un servidor OpenChange / Exchange
++Comment[ca@valencia]=Facilita el treball amb un servidor OpenChange / Exchange
+ Comment[da]=Muliggør at arbejde med en OpenChange-/Exchange-server
+ Comment[de]=Verwendung mit Openchange- und Exchange-Servern
+ Comment[el]=Καθιστά δυνατή τη συνεργασία με ένα διακομιστή OpenChange / Exchange
+diff -Nur kdepim-runtime-4.3.4/resources/vcard/vcardresource.desktop kdepim-runtime-4.3.5/resources/vcard/vcardresource.desktop
+--- kdepim-runtime-4.3.4/resources/vcard/vcardresource.desktop	2009-10-02 10:20:54.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/vcard/vcardresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=VCard File
+ Name[ar]=ملف vCard
+ Name[ca]=Fitxer VCard
++Name[ca@valencia]=Fitxer VCard
+ Name[cs]=Soubor s vizitkou
+ Name[da]=VCard-fil
+ Name[de]=VCard-Datei
+@@ -40,6 +41,7 @@
+ Comment=Loads data from a VCard file
+ Comment[ar]=تحمل البيانات من ملف VCards
+ Comment[ca]=Carrega dades des d'un fitxer VCard
++Comment[ca@valencia]=Carrega dades des d'un fitxer VCard
+ Comment[cs]=Načítá data ze souboru vizitek (vCard)
+ Comment[da]=Indlæser data fra en VCard-fil
+ Comment[de]=Daten werden aus einer Visitenkarten-Datei geladen
+diff -Nur kdepim-runtime-4.3.4/resources/vcarddir/vcarddirresource.desktop kdepim-runtime-4.3.5/resources/vcarddir/vcarddirresource.desktop
+--- kdepim-runtime-4.3.4/resources/vcarddir/vcarddirresource.desktop	2009-10-02 10:20:54.000000000 +0200
++++ kdepim-runtime-4.3.5/resources/vcarddir/vcarddirresource.desktop	2010-01-21 21:48:39.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=VCard Directory
+ Name[ar]=دليل VCard
+ Name[ca]=Directori VCard
++Name[ca@valencia]=Directori VCard
+ Name[cs]=Adresář vizitek
+ Name[da]=VCard-mappe
+ Name[de]=VCard-Ordner
+@@ -40,6 +41,7 @@
+ Comment=Loads data from a directory with VCards
+ Comment[ar]=تحمل البيانات من الدليل مع VCards
+ Comment[ca]=Carrega dades des d'un directori amb VCards
++Comment[ca@valencia]=Carrega dades des d'un directori amb VCards
+ Comment[cs]=Načítá data z adresáře vizitek (vCard)
+ Comment[da]=Indlæser data fra en mappe med VCards
+ Comment[de]=Daten werden aus einem Ordner mit Visitenkarten-Dateien geladen
+diff -Nur kdepim-runtime-4.3.4/tray/akonaditray.desktop kdepim-runtime-4.3.5/tray/akonaditray.desktop
+--- kdepim-runtime-4.3.4/tray/akonaditray.desktop	2009-10-02 10:20:43.000000000 +0200
++++ kdepim-runtime-4.3.5/tray/akonaditray.desktop	2010-01-21 21:48:38.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name=Akonaditray
+ Name[ar]=Akonaditray
+ Name[ca]=Akonaditray
++Name[ca@valencia]=Akonaditray
+ Name[cs]=Akonaditray
+ Name[da]=Akonaditray
+ Name[de]=Akonadi-Miniprogramm
+@@ -43,6 +44,7 @@
+ GenericName=Akonadi Tray Utility
+ GenericName[ar]=أداة اكوندا لصينية النظام
+ GenericName[ca]=Utilitat de la safata per a l'Akonadi
++GenericName[ca@valencia]=Utilitat de la safata per a l'Akonadi
+ GenericName[da]=Akonadi-værktøj til statusområdet
+ GenericName[de]=Akonadi für die Kontrollleiste
+ GenericName[el]=Εργαλείο πλαισίου συστήματος του Akonadi
