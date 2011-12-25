@@ -3,7 +3,7 @@
 Name: kdepim-runtime
 Summary: KDE PIM Runtime Environment
 Version: 4.3.4
-Release: 4%{?dist}
+Release: 5%{?dist}
 
 License: GPLv2
 Group: Applications/Productivity
@@ -11,6 +11,12 @@ Url: http://www.kde.org/
 Source0: ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.bz2
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+
+# bz#660581, fastrack, kdepim-runtime can't be build on rhel-6.0
+Patch1: kdepim-runtime-4.3.4-bz#660581.patch
+
+# bz#625121, fastrack, don't show Akonaditray icon
+Patch2: kdepim-runtime-4.3.4-bz#625121.patch
 
 # 4.3 branch fixes
 Patch100: kdepim-runtime-4.3.5.patch
@@ -53,6 +59,9 @@ Install %{name}-devel if you want to write or compile %{name} plugins.
 
 %prep
 %setup -q
+
+%patch1 -p1 -b .bz#660581
+%patch2 -p1 -b .bz#625121
 
 # 4.3 branch
 %patch100 -p1 -b .kde435
@@ -136,6 +145,10 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Jul 18 2011 Than Ngo <than@redhat.com> - 4.3.4-5
+- Resolves: bz#625121, don't show akonaditray icon
+- Resolves: bz#660581, build failfure
+
 * Wed Mar 31 2010 Than Ngo <than@redhat.com> - 4.3.4-4
 - rebuilt against qt 4.6.2
 
